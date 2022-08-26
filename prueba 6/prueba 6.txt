@@ -1,0 +1,7 @@
+Pseudoselectores– #6
+
+¿Cuáles de los siguientes son ciertos con respecto a los pseudoselectores ::antes y ::después?
+
+La unica que es cierta es la respuesta 1
+
+1. No se aplica a elementos de cierre automático como <img/>, <hr/> y <input/>
