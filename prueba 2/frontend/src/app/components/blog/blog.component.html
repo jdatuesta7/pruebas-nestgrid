@@ -1,0 +1,13 @@
+
+<article>
+<div class="container mt-4">
+    <div data-test-id="blog-posts" class="row">
+        <ng-container *ngFor="let publication of publications; let indice = index" >
+            <div attr.data-test-id="{{ indice }}" class="card col-md-4">
+                <p data-test-id="blog-title">{{ publication.title }}</p>
+                <p>{{ publication.description }}</p>
+            </div>
+        </ng-container>
+    </div>
+</div>
+</article>
